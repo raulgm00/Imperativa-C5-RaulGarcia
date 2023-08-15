@@ -51,3 +51,16 @@ console.log( horaActual());
 
  }
  console.log ( sumaNumeros (10));
+
+
+ function loro (frase) {
+    for(let x=1 ; x<=5; x++){
+      console.log(frase);
+    }
+}
+
+const loro = frase => {
+    for(let x=1 ; x<=5; x++){
+      console.log(`${frase} : ${x}`);
+    }
+}
